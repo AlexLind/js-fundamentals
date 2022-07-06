@@ -5,10 +5,14 @@
 
 // do not edit below this line
 let firstNameExport = 'Jane'
-try { firstNameExport = firstName } catch (e) {}
+try {
+  firstNameExport = firstName
+} catch (e) {}
 
 let ageExport = 35
-try { ageExport = age } catch (e) {}
+try {
+  ageExport = age
+} catch (e) {}
 
 module.exports = {
   firstName: firstNameExport,

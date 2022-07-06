@@ -11,15 +11,11 @@ let answerOne
 // or true if it is empty
 let answerTwo
 
-
-
 const NUM_ONE = 92837
 const NUM_TWO = 92827
 
 // Use conditional statements to set answerThree to true if NUM_ONE is more than NUM_TWO
 let answerThree
-
-
 
 const NUMBERS = [67, 2039, 17, 501, 98, 139, 21]
 
@@ -27,13 +23,10 @@ const NUMBERS = [67, 2039, 17, 501, 98, 139, 21]
 // to the lowest number in the NUMBERS array
 let answerFour
 
-
-
-
 // Don't edit the code below this line
 module.exports = {
-    answerOne,
-    answerTwo,
-    answerThree,
-    answerFour
+  answerOne,
+  answerTwo,
+  answerThree,
+  answerFour
 }

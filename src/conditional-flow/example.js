@@ -5,7 +5,7 @@ const exampleValue = 10
 let answer
 
 if (exampleValue >= 7) {
-    answer = 'Correct!'
+  answer = 'Correct!'
 }
 
 module.exports = answer

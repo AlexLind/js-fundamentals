@@ -4,7 +4,7 @@ const cities = ['London', 'Shanghai', 'New York', 'Delhi', 'Kuala Lumpur']
 // TODO: write code to pass the tests
 
 // Set names equal to an array containing 'Bob', 'Jane', 'Joanna' in that order
-const names = [ 'Bob', 'Jane', 'Joanna' ]
+const names = ['Bob', 'Jane', 'Joanna']
 
 // Set fourthCity to the 4th element in the cities array
 const fourthCity = 'Delhi'

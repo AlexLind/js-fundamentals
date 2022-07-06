@@ -8,8 +8,6 @@ const NUM = 9
 // AND is less than or equal to the UPPER variable
 let answerOne
 
-
-
 // ---- //
 
 // Task 2
@@ -21,8 +19,6 @@ const STR = null
 // Run the test after setting STR to 'Hello', then 'Goodbye', then any other value you like
 // to verify your code is correct
 let answerTwo
-
-
 
 // ---- //
 
@@ -43,17 +39,14 @@ const AGE = 0
 // 20+    | Adult
 let answerThree
 
-
 // Run the test after changing the AGE value to verify you've successfully
 // accounted for each age range
 
-
-
 // Don't touch the code below this line
 module.exports = {
-    answerOne,
-    STR,
-    answerTwo,
-    AGE,
-    answerThree
+  answerOne,
+  STR,
+  answerTwo,
+  AGE,
+  answerThree
 }

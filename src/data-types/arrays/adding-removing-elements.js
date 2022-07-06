@@ -10,7 +10,7 @@ const fruits = ['Apple', 'Orange', 'Pear']
 // TODO: write code to pass the tests
 
 // Edit this code to add 'Fred' to the names array
-names.push("Fred")
+names.push('Fred')
 
 // Edit this code to add 4 to the end of the numbers array
 numbers.push(4)

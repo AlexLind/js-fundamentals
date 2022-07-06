@@ -6,9 +6,6 @@ let didPass
 // is false
 let answer
 
-
-
-
 // When you're done and the test passes, changing didPass to the opposite boolean
 // and run the test again to make sure it still passes
 

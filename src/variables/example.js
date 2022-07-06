@@ -8,7 +8,9 @@ const city = 'Tokyo'
 
 // do not edit below this line
 let cityExport = ''
-try { cityExport = city } catch (e) {}
+try {
+  cityExport = city
+} catch (e) {}
 
 module.exports = {
   a: count,
