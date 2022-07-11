@@ -57,7 +57,7 @@ console.log('\n', 'Exercise 8')
 // 8. Create a for loop that console logs "I found Tea" if the shopping list contains Tea,
 // otherwise console log "I don't need Tea". The log should only run once the loop has finished;
 // use a variable to keep track of whether you've found Tea in the shopping list
-let teaFound 
+let teaFound
 for (i = 0; i < shoppingList.length; i++) {
   if (shoppingList[i] === 'Tea') {
     teaFound = true
