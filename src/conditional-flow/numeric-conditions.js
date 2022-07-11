@@ -34,6 +34,14 @@ const NUMBERS = [67, 2039, 17, 501, 98, 139, 21]
 // Use a combination of a loop and conditional statements to set answerFour
 // to the lowest number in the NUMBERS array
 let answerFour
+let smallestNumber = Number.MAX_SAFE_INTEGER
+for (let i = 0; i < NUMBERS.length; i++) {
+ if (NUMBERS[i] < smallestNumber) {
+    smallestNumber = NUMBERS[i]
+    answerFour = smallestNumber
+ }
+}
+console.log(answerFour)
 
 // Don't edit the code below this line
 module.exports = {
