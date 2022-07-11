@@ -70,7 +70,7 @@ if (STR_EIGHT.length % 2 === 0) {
 // December to February: Winter
 //
 // Run the test after changing the value of MONTH to check you've covered every month correctly
-const MONTH = 'January'
+const MONTH = 'June'
 
 let answerEight
 if (MONTH === 'December' || MONTH === 'January' || MONTH === 'February') {
@@ -82,7 +82,7 @@ if (MONTH === 'December' || MONTH === 'January' || MONTH === 'February') {
 } else if (MONTH === 'September' || MONTH === 'October' || MONTH === 'November') {
   answerEight = 'Autumn'
 }
-
+console.log(answerEight)
 module.exports = {
   answerOne,
   answerTwo,
