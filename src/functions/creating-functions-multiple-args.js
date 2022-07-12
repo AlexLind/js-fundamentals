@@ -33,12 +33,12 @@ function lowerToUpper(lower, upper) {
 function srzBzns(string, number) {
   let textFirst
   if (typeof string === 'string') {
-    textFirst = string.toUpperCase() 
+    textFirst = string.toUpperCase()
   } else {
     return console.log('Not a valid input, need to be a string.')
   }
   if (typeof number === 'number') {
-  return textFirst + '!'.repeat(number)
+    return textFirst + '!'.repeat(number)
   } else {
     return console.log('Not a valid input, need to be a number.')
   }
