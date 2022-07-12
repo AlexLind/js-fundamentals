@@ -61,8 +61,6 @@ if (counter % 2 > 0) {
   answerFive = true
 }
 
-
-
 // Use conditional statements to set answerSix to the middle character of STR_SEVEN
 // if STR_SEVEN has an odd number of characters
 const STR_SEVEN = 'Kayla'
@@ -104,7 +102,11 @@ if (MONTH === 'December' || MONTH === 'January' || MONTH === 'February') {
   answerEight = 'Spring'
 } else if (MONTH === 'June' || MONTH === 'July' || MONTH === 'August') {
   answerEight = 'Summer'
-} else if (MONTH === 'September' || MONTH === 'October' || MONTH === 'November') {
+} else if (
+  MONTH === 'September' ||
+  MONTH === 'October' ||
+  MONTH === 'November'
+) {
   answerEight = 'Autumn'
 }
 console.log(answerEight)

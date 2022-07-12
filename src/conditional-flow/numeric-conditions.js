@@ -36,10 +36,10 @@ const NUMBERS = [67, 2039, 17, 501, 98, 139, 21]
 let answerFour
 let smallestNumber = Number.MAX_SAFE_INTEGER
 for (let i = 0; i < NUMBERS.length; i++) {
- if (NUMBERS[i] < smallestNumber) {
+  if (NUMBERS[i] < smallestNumber) {
     smallestNumber = NUMBERS[i]
     answerFour = smallestNumber
- }
+  }
 }
 console.log(answerFour)
 

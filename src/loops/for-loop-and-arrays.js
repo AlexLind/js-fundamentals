@@ -25,14 +25,14 @@ for (i = 0; i < letters.length; i++) {
 console.log(word)
 // Use a for loop to populate everySecondNum with every second number from the nums array
 const everySecondNum = []
-for (i=1 ; i<nums.length; i= i+2) {
+for (i = 1; i < nums.length; i = i + 2) {
   everySecondNum.push(nums[i])
 }
 console.log(everySecondNum)
 
 // Use a for loop to populate numsReversed with the numbers from nums in reverse order
 const numsReversed = []
-for (i = nums.length -1 ; i >= 0; i--) {
+for (i = nums.length - 1; i >= 0; i--) {
   numsReversed.push(nums[i])
 }
 console.log(numsReversed)
