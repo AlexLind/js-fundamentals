@@ -13,8 +13,8 @@ let word = ''
 // }
 // console.log(sum)
 
-nums.forEach(item => {
-  sum += item;
+nums.forEach((item) => {
+  sum += item
 })
 console.log(sum)
 
@@ -25,7 +25,7 @@ const doubledNums = []
 //   doubledNums.push(nums[i] * 2)
 // }
 
-nums.forEach(item => {
+nums.forEach((item) => {
   doubledNums.push(item * 2)
 })
 console.log(doubledNums)
@@ -35,7 +35,7 @@ console.log(doubledNums)
 // for (i = 0; i < letters.length; i++) {
 //   word += letters[i]
 // }
-letters.forEach(item => {
+letters.forEach((item) => {
   word += item
 })
 console.log(word)
@@ -46,11 +46,10 @@ const everySecondNum = []
 //   everySecondNum.push(nums[i])
 // }
 
-
 nums.filter((item, i) => {
- if (i % 2 === 2 - 1) {
-  everySecondNum.push(item)
- }
+  if (i % 2 === 2 - 1) {
+    everySecondNum.push(item)
+  }
 })
 console.log(everySecondNum)
 
