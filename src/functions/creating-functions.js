@@ -39,10 +39,3 @@ module.exports = {
   a: addOne, // change undefined to be the name of the function you defined to increment a number (the first TODO)
   b: happy // change undefined to be the name of the function you defined to say hi (the second TODO)
 }
-function sayHello() {
-  if (true) {
-    let hello = 'Hello'
-  }
-  return hello
-}
-console.log(sayHello())
