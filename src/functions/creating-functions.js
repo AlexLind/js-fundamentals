@@ -7,9 +7,12 @@
 // 2      | 3
 //
 // TODO: write code below
-function addOne(num1) {
-  return num1 + 1
-}
+
+// function addOne(num1) {
+//   return num1 + 1
+// }
+
+const addOne = num1 => num1 + 1 
 
 // Define a function that takes any person's name and returns it with a smiley :)!
 // Remember to make the name capitalized!
@@ -21,19 +24,17 @@ function addOne(num1) {
 // Aiyana | Hi, Aiyana :)
 //
 // TODO: write code below
-function happy(name) {
-  let nameCapitalized
-  if (typeof name === 'string') {
-    nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1)
-  }
-  return 'Hi, ' + nameCapitalized + ' :)'
-}
 
-const number = 60
-function double(number) {
-  return number * 2
-}
-console.log(double(12))
+// function happy(name) {
+//   let nameCapitalized
+//   if (typeof name === 'string') {
+//     nameCapitalized = name.charAt(0).toUpperCase() + name.slice(1)
+//   }
+//   return 'Hi, ' + nameCapitalized + ' :)'
+// }
+
+const happy = name => 'Hi, ' + name.charAt(0).toUpperCase() + name.slice(1) + ' :)'
+
 // TODO: change undefined to be the name of the functions you defined
 module.exports = {
   a: addOne, // change undefined to be the name of the function you defined to increment a number (the first TODO)
